@@ -1,0 +1,61 @@
+
+div{
+  background-color: whitesmoke;
+}
+
+p{
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-bottom-left-radius: 6px;
+
+  background-color: lightgrey;
+
+  padding: 5px;
+
+  margin: 5px;
+
+  font-size: small;
+}
+
+.main{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+  block-size: 100%;
+}
+
+.izquierda{
+  float: left;
+  width: 26%;
+  margin: 3%;
+  position: absolute;
+  top: 10%;
+}
+
+.derecha{
+  float: right;
+  width: 66%;
+  margin: 3%;
+}
+
+.centrado{
+  text-align: center;
+}
+
+ion-avatar{
+  display: block;
+  margin: auto;
+}
+
+h2, h3{
+  font-size: medium;
+  color: #1B8748;
+}
+
+h1{
+  text-align: center;
+  font-size: larger;
+}

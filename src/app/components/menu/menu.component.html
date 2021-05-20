@@ -1,0 +1,27 @@
+<ion-menu side="start" menuId="first" contentId="main">
+
+  <ion-header>
+
+    <ion-toolbar color="primary">
+      <ion-title>Lost</ion-title>
+    </ion-toolbar>
+
+  </ion-header>
+
+  <ion-content>
+
+    <ion-list>
+
+      <ion-menu-toggle *ngFor="let item of menu">
+
+        <ion-item [routerLink]="item.direccion">
+          {{item.titulo}}
+        </ion-item>
+
+      </ion-menu-toggle>
+
+    </ion-list>
+
+  </ion-content>
+
+</ion-menu>

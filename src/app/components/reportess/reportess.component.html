@@ -1,0 +1,13 @@
+<ion-grid fixed color="danger">
+  <ion-row color="danger">
+
+    <ion-col color="danger" size="12" size-lg="3" size-md="4" size-sm="6" size-xs="12"
+              *ngFor="let reporte of reportes">
+
+      <app-reporte [reporte] = "reporte.reporteRapido"></app-reporte>
+
+    </ion-col>
+
+  </ion-row>
+</ion-grid>
+
